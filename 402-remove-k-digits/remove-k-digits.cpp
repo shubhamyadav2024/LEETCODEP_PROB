@@ -12,7 +12,7 @@ public:
       st.push(num[i]);
      } 
   
-     while(!st.empty() && k>0){
+     while( k>0){
         
         st.pop();
         k--;
